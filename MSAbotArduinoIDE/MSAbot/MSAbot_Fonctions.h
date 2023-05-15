@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <Servo.h>
 
 
@@ -28,7 +27,7 @@ void vitesseGauche(int vitesse){
 }
 
 void vitesseDroite(int vitesse){
-  vitesseRoueLowLevel(7,8,5,vitesse);//inverse les pins A et B car le moteur de droite doit tourner à l'envers
+  vitesseRoueLowLevel(7,8,5,vitesse);
 }
 
 
